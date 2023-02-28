@@ -1,0 +1,38 @@
+/* RESETS */
+* { margin:0px; padding:0px; }
+ul li { list-style-type: none; }
+
+
+/* BEHAVIOURS */
+body { background:black; font-family:'Roboto', sans-serif; }
+
+.main { max-width:600px; margin: 50px auto; background:white; }
+
+img { max-width:100%; }
+
+.layout { display:flex; }
+
+.v-align { align-items:center; }
+
+.header div:last-child { margin-left:auto; }
+
+.p-1{ padding:20px; }
+
+.logo { font-size:2.3em; }
+
+.title{ padding-left:15px; }
+
+.title h1,
+.title h2{ font-size:1.2em; }
+
+.title h2 { font-weight:500; }
+
+.options-btn { font-size:2.3em; }
+
+.content-menu { margin-bottom:10px; }
+
+.content-menu li { margin-right:15px; }
+
+.content-menu li:last-child{ margin-left:auto; margin-right:0px; }
+
+.content p { padding:10px 0px;}
